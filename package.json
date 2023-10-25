@@ -1,0 +1,25 @@
+{
+    "name": "insta-scrape",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start:dev": "nodemon --env-file=.env ./index.js localhost 8080",
+        "prettier:fix": "npx prettier . --write"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "node-telegram-bot-api": "^0.63.0",
+        "puppeteer": "^21.4.1"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^6.9.0",
+        "@typescript-eslint/parser": "^6.9.0",
+        "eslint": "^8.52.0",
+        "nodemon": "^3.0.1",
+        "prettier": "3.0.3"
+    }
+}
